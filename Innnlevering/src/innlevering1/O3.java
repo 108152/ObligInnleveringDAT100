@@ -8,7 +8,7 @@ public class O3 {
 		String aTxt = showInputDialog("Hva er heltallverdien? ");
 		int n = Integer.parseInt(aTxt);
 		
-		if (n <= 0) System.out.println("For lav verdi. Minimum verdien er 1. Prøv igjen");
+		if (n <= 0) System.out.println("For lav verdi. Minimum verdien er 1.    Prøv igjen");
 		else {
 			int sum = 1;
 			for (int i = 1; i <= n; i++) {
